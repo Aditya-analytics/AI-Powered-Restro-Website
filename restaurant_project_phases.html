@@ -1,0 +1,205 @@
+
+<style>
+  .phase-card { border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 20px; margin-bottom: 16px; }
+  .phase-header { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
+  .phase-badge { font-size: 11px; font-weight: 500; padding: 3px 10px; border-radius: 20px; white-space: nowrap; }
+  .phase-title { font-size: 16px; font-weight: 500; color: var(--color-text-primary); }
+  .phase-meta { font-size: 12px; color: var(--color-text-secondary); margin-bottom: 14px; }
+  .section-label { font-size: 11px; font-weight: 500; color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px; }
+  .feature-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 14px; }
+  .feature-item { font-size: 13px; color: var(--color-text-primary); display: flex; align-items: flex-start; gap: 6px; }
+  .dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; margin-top: 4px; }
+  .stack-grid { display: flex; flex-wrap: wrap; gap: 6px; }
+  .stack-pill { font-size: 11px; padding: 3px 10px; border-radius: 20px; border: 0.5px solid var(--color-border-secondary); color: var(--color-text-secondary); }
+  .role-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin-bottom: 14px; }
+  .role-item { font-size: 12px; color: var(--color-text-secondary); background: var(--color-background-secondary); border-radius: 8px; padding: 6px 10px; }
+  .role-name { font-weight: 500; color: var(--color-text-primary); font-size: 12px; }
+  .divider { border: none; border-top: 0.5px solid var(--color-border-tertiary); margin: 14px 0; }
+  .outcome-tag { font-size: 12px; background: var(--color-background-secondary); border-radius: 8px; padding: 6px 12px; color: var(--color-text-secondary); display: inline-block; margin-top: 4px; }
+
+  .p1-badge { background: #EAF3DE; color: #3B6D11; }
+  .p2-badge { background: #E6F1FB; color: #185FA5; }
+  .p3-badge { background: #EEEDFE; color: #534AB7; }
+  .p4-badge { background: #FAEEDA; color: #854F0B; }
+  .p5-badge { background: #FAECE7; color: #993C1D; }
+
+  .p1-dot { background: #639922; }
+  .p2-dot { background: #378ADD; }
+  .p3-dot { background: #7F77DD; }
+  .p4-dot { background: #BA7517; }
+  .p5-dot { background: #D85A30; }
+
+  @media (prefers-color-scheme: dark) {
+    .p1-badge { background: #27500A; color: #C0DD97; }
+    .p2-badge { background: #0C447C; color: #B5D4F4; }
+    .p3-badge { background: #3C3489; color: #CECBF6; }
+    .p4-badge { background: #633806; color: #FAC775; }
+    .p5-badge { background: #712B13; color: #F5C4B3; }
+  }
+</style>
+
+<div style="padding: 4px 0 16px">
+
+  <!-- Team Roles -->
+  <div style="border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 20px; margin-bottom: 20px; background: var(--color-background-secondary);">
+    <div class="section-label">Team of 4 — suggested roles</div>
+    <div class="role-grid">
+      <div class="role-item"><div class="role-name">Member 1</div>Frontend (React + UI/UX)</div>
+      <div class="role-item"><div class="role-name">Member 2</div>Backend (FastAPI + DB)</div>
+      <div class="role-item"><div class="role-name">Member 3</div>AI/ML (RAG + LangChain)</div>
+      <div class="role-item"><div class="role-name">Member 4</div>Full-stack + DevOps + Admin</div>
+    </div>
+  </div>
+
+  <!-- Phase 1 -->
+  <div class="phase-card">
+    <div class="phase-header">
+      <span class="phase-badge p1-badge">Phase 1</span>
+      <span class="phase-title">Foundation</span>
+    </div>
+    <div class="phase-meta">Weeks 1–2 · All members · Get the skeleton running</div>
+    <div class="section-label">Features to build</div>
+    <div class="feature-grid">
+      <div class="feature-item"><span class="dot p1-dot"></span>Project setup + Git workflow</div>
+      <div class="feature-item"><span class="dot p1-dot"></span>DB schema design (all tables)</div>
+      <div class="feature-item"><span class="dot p1-dot"></span>FastAPI project structure</div>
+      <div class="feature-item"><span class="dot p1-dot"></span>React app + routing setup</div>
+      <div class="feature-item"><span class="dot p1-dot"></span>JWT auth (signup/login)</div>
+      <div class="feature-item"><span class="dot p1-dot"></span>User profile + protected routes</div>
+      <div class="feature-item"><span class="dot p1-dot"></span>Landing + About pages</div>
+      <div class="feature-item"><span class="dot p1-dot"></span>Basic REST API structure</div>
+    </div>
+    <hr class="divider">
+    <div class="section-label">Tech stack</div>
+    <div class="stack-grid">
+      <span class="stack-pill">React + Vite</span>
+      <span class="stack-pill">FastAPI</span>
+      <span class="stack-pill">PostgreSQL</span>
+      <span class="stack-pill">SQLAlchemy</span>
+      <span class="stack-pill">Pydantic</span>
+      <span class="stack-pill">JWT (python-jose)</span>
+      <span class="stack-pill">Tailwind CSS</span>
+      <span class="stack-pill">Git + GitHub</span>
+    </div>
+    <div class="outcome-tag">Deliverable: Working auth + project scaffold all members can code against</div>
+  </div>
+
+  <!-- Phase 2 -->
+  <div class="phase-card">
+    <div class="phase-header">
+      <span class="phase-badge p2-badge">Phase 2</span>
+      <span class="phase-title">Core Features</span>
+    </div>
+    <div class="phase-meta">Weeks 3–4 · All members in parallel · Main user-facing flow</div>
+    <div class="section-label">Features to build</div>
+    <div class="feature-grid">
+      <div class="feature-item"><span class="dot p2-dot"></span>Menu page (categories + filters)</div>
+      <div class="feature-item"><span class="dot p2-dot"></span>Menu CRUD APIs</div>
+      <div class="feature-item"><span class="dot p2-dot"></span>Cart (add/update/remove)</div>
+      <div class="feature-item"><span class="dot p2-dot"></span>Order placement API</div>
+      <div class="feature-item"><span class="dot p2-dot"></span>Order status (pending/paid/failed)</div>
+      <div class="feature-item"><span class="dot p2-dot"></span>Order history page</div>
+      <div class="feature-item"><span class="dot p2-dot"></span>Reviews (add + view)</div>
+      <div class="feature-item"><span class="dot p2-dot"></span>Save user preferences</div>
+    </div>
+    <hr class="divider">
+    <div class="section-label">Tech stack</div>
+    <div class="stack-grid">
+      <span class="stack-pill">React Context (cart state)</span>
+      <span class="stack-pill">FastAPI routers</span>
+      <span class="stack-pill">Alembic (migrations)</span>
+      <span class="stack-pill">Axios / React Query</span>
+      <span class="stack-pill">Pagination + filtering</span>
+    </div>
+    <div class="outcome-tag">Deliverable: User can browse menu, order food, and leave a review end-to-end</div>
+  </div>
+
+  <!-- Phase 3 -->
+  <div class="phase-card">
+    <div class="phase-header">
+      <span class="phase-badge p3-badge">Phase 3</span>
+      <span class="phase-title">Payment + Admin</span>
+    </div>
+    <div class="phase-meta">Weeks 5–6 · Members 2 + 4 lead · High-value showcase features</div>
+    <div class="section-label">Features to build</div>
+    <div class="feature-grid">
+      <div class="feature-item"><span class="dot p3-dot"></span>Razorpay test mode integration</div>
+      <div class="feature-item"><span class="dot p3-dot"></span>Payment status tracking</div>
+      <div class="feature-item"><span class="dot p3-dot"></span>Webhook simulation</div>
+      <div class="feature-item"><span class="dot p3-dot"></span>Admin: menu management</div>
+      <div class="feature-item"><span class="dot p3-dot"></span>Admin: view all orders/users</div>
+      <div class="feature-item"><span class="dot p3-dot"></span>Admin: sales analytics</div>
+      <div class="feature-item"><span class="dot p3-dot"></span>Admin: top dishes + trends</div>
+      <div class="feature-item"><span class="dot p3-dot"></span>Image upload for menu items</div>
+    </div>
+    <hr class="divider">
+    <div class="section-label">Tech stack</div>
+    <div class="stack-grid">
+      <span class="stack-pill">Razorpay Test SDK</span>
+      <span class="stack-pill">Recharts (analytics)</span>
+      <span class="stack-pill">Cloudinary / S3 (images)</span>
+      <span class="stack-pill">Role-based auth (admin)</span>
+    </div>
+    <div class="outcome-tag">Deliverable: Full payment flow + working admin dashboard</div>
+  </div>
+
+  <!-- Phase 4 -->
+  <div class="phase-card">
+    <div class="phase-header">
+      <span class="phase-badge p4-badge">Phase 4</span>
+      <span class="phase-title">AI Integration</span>
+    </div>
+    <div class="phase-meta">Weeks 7–8 · Member 3 leads, others support · Your USP</div>
+    <div class="section-label">Features to build</div>
+    <div class="feature-grid">
+      <div class="feature-item"><span class="dot p4-dot"></span>Menu data chunking + embedding</div>
+      <div class="feature-item"><span class="dot p4-dot"></span>FAISS / ChromaDB vector store</div>
+      <div class="feature-item"><span class="dot p4-dot"></span>RAG retrieval pipeline</div>
+      <div class="feature-item"><span class="dot p4-dot"></span>Smart menu chat assistant</div>
+      <div class="feature-item"><span class="dot p4-dot"></span>Review sentiment analysis</div>
+      <div class="feature-item"><span class="dot p4-dot"></span>AI review insights (admin)</div>
+      <div class="feature-item"><span class="dot p4-dot"></span>Chat UI component</div>
+      <div class="feature-item"><span class="dot p4-dot"></span>Prompt engineering + tuning</div>
+    </div>
+    <hr class="divider">
+    <div class="section-label">Tech stack</div>
+    <div class="stack-grid">
+      <span class="stack-pill">LangChain</span>
+      <span class="stack-pill">OpenAI API</span>
+      <span class="stack-pill">FAISS or ChromaDB</span>
+      <span class="stack-pill">HuggingFace (sentiment)</span>
+      <span class="stack-pill">FastAPI AI endpoints</span>
+    </div>
+    <div class="outcome-tag">Deliverable: AI chat live in app + sentiment dashboard in admin</div>
+  </div>
+
+  <!-- Phase 5 -->
+  <div class="phase-card">
+    <div class="phase-header">
+      <span class="phase-badge p5-badge">Phase 5</span>
+      <span class="phase-title">Polish + Deploy</span>
+    </div>
+    <div class="phase-meta">Weeks 9–10 · All members · Make it presentable</div>
+    <div class="section-label">Features to build</div>
+    <div class="feature-grid">
+      <div class="feature-item"><span class="dot p5-dot"></span>Mobile-responsive UI</div>
+      <div class="feature-item"><span class="dot p5-dot"></span>Loading states + error handling</div>
+      <div class="feature-item"><span class="dot p5-dot"></span>Rate limiting + security audit</div>
+      <div class="feature-item"><span class="dot p5-dot"></span>API documentation (Swagger)</div>
+      <div class="feature-item"><span class="dot p5-dot"></span>Deploy backend (Railway/Render)</div>
+      <div class="feature-item"><span class="dot p5-dot"></span>Deploy frontend (Vercel)</div>
+      <div class="feature-item"><span class="dot p5-dot"></span>Seed data + demo setup</div>
+      <div class="feature-item"><span class="dot p5-dot"></span>README + project docs</div>
+    </div>
+    <hr class="divider">
+    <div class="section-label">Tech stack</div>
+    <div class="stack-grid">
+      <span class="stack-pill">Railway / Render (backend)</span>
+      <span class="stack-pill">Vercel (frontend)</span>
+      <span class="stack-pill">Neon / Supabase (DB)</span>
+      <span class="stack-pill">Docker (optional)</span>
+    </div>
+    <div class="outcome-tag">Deliverable: Live URL you can share in your resume and interviews</div>
+  </div>
+
+</div>
