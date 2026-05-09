@@ -1,0 +1,66 @@
+name,category,cuisine,price,dietary,spice,description
+Paneer Tikka,starter,indian,220,veg,spicy,Smoky marinated paneer cubes grilled in tandoor with bell peppers and onions
+Hara Bhara Kabab,starter,indian,180,veg,mild,Spinach and pea patties with a crispy crust and soft herby center
+Dahi Ke Sholay,starter,indian,200,veg,mild,Crispy bread pockets filled with spiced hung curd and fresh herbs
+Crispy Corn Chaat,starter,indian,160,veg,medium,Golden fried sweet corn tossed with tangy spices and fresh coriander
+Stuffed Mushroom Tandoori,starter,indian,240,veg,medium,Whole mushrooms stuffed with spiced paneer and cheese then chargrilled
+Veg Spring Rolls,starter,chinese,180,veg,mild,Crunchy golden rolls packed with stir-fried vegetables and glass noodles
+Chilli Paneer Dry,starter,chinese,260,veg,spicy,Crispy paneer tossed in a bold spicy Indo-Chinese sauce with peppers
+Veg Manchurian Dry,starter,chinese,220,veg,spicy,Fried vegetable dumplings glazed in a tangy garlicky manchurian sauce
+Crispy Honey Chilli Potato,starter,chinese,200,veg,medium,Fried potato fingers coated in a sticky sweet and spicy honey sauce
+Corn & Cheese Wontons,starter,chinese,220,veg,mild,Delicate fried wontons filled with creamy corn and melted cheese
+Bruschetta,starter,italian,180,veg,mild,Toasted sourdough topped with fresh tomatoes basil and a drizzle of olive oil
+Caprese Salad,starter,italian,220,veg,mild,Fresh tomatoes layered with mozzarella basil and aged balsamic reduction
+Garlic Bread with Dip,starter,italian,160,veg,mild,Toasted herb butter bread served with roasted tomato and cheesy dips
+Stuffed Jalapeno Poppers,starter,italian,200,veg,spicy,Jalapenos filled with cream cheese and herbs then baked till golden
+Arancini (Rice Balls),starter,italian,240,veg,mild,Crispy saffron risotto balls stuffed with mozzarella and fried to perfection
+Veg Nachos,starter,mexican,220,veg,medium,Loaded tortilla chips topped with salsa sour cream jalapenos and cheese
+Guacamole & Chips,starter,mexican,200,veg,mild,Freshly smashed avocado with lime and cilantro served with house tortilla chips
+Veg Quesadilla,starter,mexican,240,veg,medium,Grilled flour tortilla stuffed with peppers onions corn and melted cheese
+Paneer Butter Masala,main,indian,280,veg,medium,Soft paneer in a velvety tomato cream sauce slow cooked with aromatic spices
+Dal Makhani,main,indian,220,veg,mild,Black lentils simmered overnight in butter and cream for deep rich flavor
+Palak Paneer,main,indian,260,veg,mild,Fresh cottage cheese cubes in a smooth spiced spinach gravy
+Kadai Paneer,main,indian,270,veg,spicy,Paneer and peppers stir-fried in a rustic spicy kadai masala
+Malai Kofta,main,indian,280,veg,mild,Soft paneer and potato dumplings in a silky cashew cream sauce
+Veg Kolhapuri,main,indian,240,veg,spicy,A bold fiery mixed vegetable curry with a traditional Kolhapuri masala base
+Mushroom Masala,main,indian,250,veg,medium,Earthy button mushrooms cooked in a tangy onion tomato masala
+Chole Masala,main,indian,230,veg,spicy,Slow-cooked chickpeas in a deeply spiced smoky tamarind gravy
+Veg Hakka Noodles,main,chinese,220,veg,medium,Wok-tossed noodles with crunchy vegetables in a light soy sesame sauce
+Veg Fried Rice,main,chinese,200,veg,mild,Classic egg-free fried rice with fresh vegetables and aromatic seasonings
+Chilli Paneer Gravy,main,chinese,270,veg,spicy,Paneer in a bold Indo-Chinese gravy with peppers garlic and soy
+Veg Manchurian Gravy,main,chinese,240,veg,spicy,Soft vegetable dumplings simmered in a rich garlicky brown sauce
+Paneer Schezwan,main,chinese,280,veg,spicy,Wok-fried paneer and vegetables in a fiery schezwan pepper sauce
+Margherita Pizza,main,italian,320,veg,mild,Classic Neapolitan pizza with San Marzano tomato sauce and fresh mozzarella
+Paneer & Corn Pizza,main,italian,360,veg,medium,Indian-inspired pizza topped with spiced paneer sweet corn and bell peppers
+Penne Arrabiata,main,italian,280,veg,spicy,Penne pasta in a bold spicy tomato sauce with garlic and fresh chilli
+Mushroom Alfredo Pasta,main,italian,300,veg,mild,Fettuccine in a rich parmesan cream sauce with sautéed mushrooms
+Pesto Pasta,main,italian,290,veg,mild,Fusilli tossed in fresh basil pesto with sun-dried tomatoes and pine nuts
+Veg Lasagna,main,italian,340,veg,medium,Layered pasta sheets with roasted vegetables béchamel and melted cheese
+Veg Burrito Bowl,main,mexican,300,veg,medium,Rice beans corn salsa and guacamole in a hearty customizable bowl
+Veg Tacos (3 pcs),main,mexican,280,veg,medium,Soft tacos filled with spiced vegetables pico de gallo and sour cream
+Paneer Enchiladas,main,mexican,320,veg,spicy,Rolled tortillas stuffed with spiced paneer baked in smoky enchilada sauce
+Grilled Veg Steak,main,continental,350,veg,mild,Thick portobello and vegetable steak grilled with herb butter and jus
+Veg Pot Pie,main,continental,320,veg,mild,Creamy mixed vegetable filling baked under a golden flaky pastry crust
+Mushroom Risotto,main,continental,340,veg,mild,Slow-stirred arborio rice with wild mushrooms parmesan and white wine
+Butter Naan,bread,indian,50,veg,mild,Soft leavened flatbread brushed with butter straight from the tandoor
+Garlic Naan,bread,indian,60,veg,mild,Classic naan topped with roasted garlic and fresh coriander butter
+Laccha Paratha,bread,indian,55,veg,mild,Flaky multi-layered whole wheat bread with a crispy golden exterior
+Tandoori Roti,bread,indian,40,veg,mild,Light whole wheat bread baked directly on the walls of a clay tandoor
+Garlic Bread (Italian),bread,italian,80,veg,mild,Ciabatta toasted with herb garlic butter and a sprinkle of parsley
+Steamed Rice,rice,indian,120,veg,mild,Fluffy long-grain basmati rice perfectly steamed and lightly seasoned
+Jeera Rice,rice,indian,140,veg,mild,Basmati rice tempered with cumin seeds ghee and fresh coriander
+Veg Biryani,rice,indian,260,veg,medium,Fragrant basmati layered with spiced vegetables saffron and fried onions
+Veg Schezwan Fried Rice,rice,chinese,220,veg,spicy,Wok-tossed rice with vegetables in a bold fiery schezwan sauce
+Gulab Jamun,dessert,indian,120,veg,mild,Soft milk-solid dumplings soaked in rose and cardamom sugar syrup
+Rasmalai,dessert,indian,140,veg,mild,Delicate cottage cheese discs floating in chilled saffron rabri cream
+Kulfi Falooda,dessert,indian,160,veg,mild,Traditional dense ice cream with vermicelli rose syrup and basil seeds
+Tiramisu,dessert,italian,200,veg,mild,Classic Italian dessert with mascarpone espresso and cocoa dusted layers
+Chocolate Lava Cake,dessert,continental,220,veg,mild,Warm chocolate cake with a gooey molten center served with vanilla ice cream
+Churros with Dip,dessert,mexican,180,veg,mild,Crispy cinnamon sugar fried dough sticks with a warm chocolate dipping sauce
+Panna Cotta,dessert,italian,190,veg,mild,Silky vanilla cream dessert set to perfection with a berry coulis drizzle
+Mango Lassi,drinks,indian,120,veg,mild,Thick blended yogurt drink with sweet Alphonso mango pulp
+Masala Chaas,drinks,indian,80,veg,mild,Chilled spiced buttermilk with roasted cumin ginger and fresh mint
+Fresh Lime Soda,drinks,indian,90,veg,mild,Freshly squeezed lime with soda and a hint of black salt and sugar
+Cold Coffee,drinks,continental,150,veg,mild,Chilled blended coffee with milk and a scoop of vanilla ice cream
+Virgin Mojito,drinks,continental,160,veg,mild,Fresh mint lime and sugar muddled with soda over crushed ice
+Watermelon Cooler,drinks,continental,130,veg,mild,Fresh watermelon juice blended with mint and a squeeze of lime
